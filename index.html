@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="/pagina-processa=dados-form" method="post">
+
+        <h1>Cadastro de DEVS</h1>
+    <h2>Faça já sua inscrição</h2>
+
+        <label for="nome">Nome:</label>
+            <br>
+        <input type="text" id="nome">
+
+             <br>
+
+        <label for="sobrenome">Sobrenome:</label>
+             <br>
+        <input type="text" id="sobrenome">
+
+            <br>
+
+        <label for="telefone">Telefone:</label>
+             <br>
+        <input type="text" id="telefone" placeholder="(XX)XXXXXX-XXXX">
+
+            <br>
+
+            <label for="email">Email:</label>
+             <br>
+            <input type="text" id="email" placeholder="email@gmail.com">
+            
+            <br>
+
+            <p><strong>Qual lado da aplicação você desenvolve?</strong></p>
+
+        <input id="Front" name="lado" type="radio">
+        <label for="Front">Front-End</label>
+
+        <input id="Front" name="lado" type="radio">
+        <label for="Front">Back-End</label>
+
+        <input id="Front" name="lado" type="radio">
+        <label for="Front">Full-Duplex</label>
+
+        <br>
+
+        <p><strong>Nível de Experiência:</strong></p>
+        <select>
+            <option>Selecione</option>
+            <option>Básico</option>
+            <option>Intermediário</option>
+            <option>Avançado</option>
+        </select>
+
+        <br>
+        <p><strong>Selecione quais tecnologias voce trabalha:</strong></p>
+        <input id="html" type="checkbox">
+            <label for="html">HTML</label>
+        <br>
+        <input id="css" type="checkbox">
+            <label for="css">CSS</label>
+        <br>
+        <input id="java" type="checkbox">
+            <label for="java">Java</label>
+        <br>
+        <input id="JavaS" type="checkbox">
+            <label for="JavaS">JavScript</label>
+        <br>
+        <input id="banco" type="checkbox">
+            <label for="banco">Banco de Dados</label>
+        <br>
+        <input id="php" type="checkbox">
+            <label for="php">PHP</label>
+        <br>
+        <input id="py" type="checkbox">
+            <label for="py">Python</label>
+        <br>
+
+            <label for="mensage"><strong>Conte um pouco da sua experiência:</strong></label>
+            <textarea id="mensage" cols="70" rows="4"></textarea>
+            </section>
+
+            <br>
+
+            <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
